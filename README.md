@@ -63,10 +63,10 @@ For example, if your project folder is located at C:\Users\USER\COSC310-INTERACT
 
 The Google Translate API gives the user the ability to converse with Justin Trudeau in both English and French. You can change the language by adding the phrase "in french" or "in english" after your question. In this picture, you can see that the conversation began in English, then when the keywords were typed in, Mr.Trudeau began to speak in French, until the other keywords were inputted, and he then switched languages again. 
 
-![TRANSLATE](/images/FRENCH_sample.PNG)
+![TRANSLATE](/images/FRENCH_sample.png)
 
 2. Wikipedia API
 
 The Wikipedia API gives you the ability to ask Mr.Trudeau any definitions he knows, and he will response by pulling the Wikipedia definition of the word. As you can see in the picture, when asked a definition, Mr.Trudeau is able to give a definition of the word, based off of the definition written in Wikipedia.
 
-![WIKI](/images/DEFINITIONS_sample.PNG)
+![WIKI](/images/DEFINITIONS_sample.png)
