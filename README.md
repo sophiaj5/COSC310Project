@@ -8,7 +8,7 @@ The idea behind using tensorflow is that with a fully inter-connected neural net
 
 Our group also implemented some features to further enhance the user's experience and to improve the flow of conversation with the chat bot. A Graphical User Interfance(GUI) has been used in place of the terminal for input/output, so that the user has a more pleasant experience when talking with the bot. The bot also utilizes Stanford's CoreNLP Toolkit to make use of features such as Sentiment Analysis, which allows the bot to provide appropriate responses to statements that are not present in the question bank, and Part-of-speech(POS) tagging which helps the bot recognize certain key words as parts of speech(useful for performing other functions). Synonym recognition was also be implemented with the use of NLTK's WordNet. This feature helps the bot understand a wider range of vocabulary and sentences while providing the correct response.
 
-For my individual part of the project, I have implemented both the Google Translate API and the Wikipedia API. The Google Translate API gives the user the ability to converse with Justin Trudeau in both English and French. You can change the language by adding the phrase "in French" or "in English" after your question. The Wikipedia API gives you the ability to ask Mr.Trudeau any definitions he knows, and he will response by pulling the Wikipedia definition of the word.
+For my individual part of the project, I have implemented both the Google Translate API and the Wikipedia API. The Google Translate API gives the user the ability to converse with Justin Trudeau in both English and French. You can change the language by adding the phrase "in French" or "in English". The Wikipedia API gives you the ability to ask Mr.Trudeau any definitions he knows, and he will response by pulling the Wikipedia definition of the word.
 
 # Downloading Required APIs
 
@@ -61,7 +61,7 @@ For example, if your project folder is located at C:\Users\USER\COSC310-INTERACT
 
 1. Google Translate API
 
-The Google Translate API gives the user the ability to converse with Justin Trudeau in both English and French. You can change the language by adding the phrase "in french" or "in english" after your question. In this picture, you can see that the conversation began in English, then when the keywords were typed in, Mr.Trudeau began to speak in French, until the other keywords were inputted, and he then switched languages again. 
+The Google Translate API gives the user the ability to converse with Justin Trudeau in both English and French. You can change the language by typing in the phrase "in french" or "in english". In this picture, you can see that the conversation began in English, then when the keywords were typed in, Mr.Trudeau began to speak in French, until the other keywords were inputted, and he then switched languages again. 
 
 ![TRANSLATE](/images/FRENCH_sample.png)
 
