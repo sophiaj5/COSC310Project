@@ -1,6 +1,6 @@
 # COSC310Project
 
-This individual project expands off of Group 23's project on the interactive conversational bot that was based on the current Prime Minister of Canada, Justin Trudeau, who replies to the user's questions based on his past, present, future, and his relationships.
+This individual project expands off of Group 23's project on the interactive conversational bot that is based on the current Prime Minister of Canada, Justin Trudeau, who replies to the user's questions based on his past, present, future, and his relationships.
 
 This ChatBot implentation uses deeplearning through tensorflow's and tflearn's APIs. The basic idea is that through tensorflow, we will create a probabilistic function based on our input data (intents.json) and use this to estimate which "tag" most appropriately fits our user's input. Using this "tag", we can simply output a random hardcoded response. For example, if the user is to input "hello", the bot will calculate which tag is most fitting to the user's input. This will be returned as a float, representing a precentage from 0-100. The bot then simply takes the MAX float and says that is the closest matching tag, and then grabs a random response belonging to the same tag, in this case the "greetings" tag. This is a good approach to the problem, as it allows the bot to work with fewer constraints and without handling only hardcoded inputs.
 
@@ -61,10 +61,12 @@ For example, if your project folder is located at C:\Users\USER\COSC310-INTERACT
 
 1. Google Translate API
 
+The Google Translate API gives the user the ability to converse with Justin Trudeau in both English and French. You can change the language by adding the phrase "in french" or "in english" after your question. In this picture, you can see that the conversation began in English, then when the keywords were typed in, Mr.Trudeau began to speak in French, until the other keywords were inputted, and he then switched languages again. 
+
 ![TRANSLATE](/images/FRENCH_sample.PNG)
 
-
-
 2. Wikipedia API
+
+The Wikipedia API gives you the ability to ask Mr.Trudeau any definitions he knows, and he will response by pulling the Wikipedia definition of the word. As you can see in the picture, when asked a definition, Mr.Trudeau is able to give a definition of the word, based off of the definition written in Wikipedia.
 
 ![WIKI](/images/DEFINITIONS_sample.PNG)
