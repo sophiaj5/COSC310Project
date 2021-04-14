@@ -56,6 +56,8 @@ For example, if your project folder is located at C:\Users\USER\COSC310-INTERACT
 - sentiment.py Contains functions that conduct sentiment analysis on the user's input statement using Stanford's CoreNLP Toolkit
 - syn_recognition.py Contains functions that tag parts-of-speech in user's input, and creates different sentences with different combinations of synonyms
 - test_chatbot.py Contains unit tests for major functions and classes to validate them
+- googletranslateapi.py Contains function that turn English sentences into French and outputs them
+- wikipediaapi.py Contains function that extracts first sentences from desired summary page in Wikipedia to give definition
 
 # List of New Features
 
