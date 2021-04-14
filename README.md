@@ -61,7 +61,10 @@ For example, if your project folder is located at C:\Users\USER\COSC310-INTERACT
 
 1. Google Translate API
 
+![TRANSLATE](/images/FRENCH_sample.PNG)
 
 
 
 2. Wikipedia API
+
+![WIKI](/images/DEFINITIONS_sample.PNG)
